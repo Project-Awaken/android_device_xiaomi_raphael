@@ -6,7 +6,6 @@
 /dsp(/.*)?               u:object_r:adsprpcd_file:s0
 /firmware(/.*)?          u:object_r:firmware_file:s0
 /persist(/.*)?           u:object_r:persist_file:s0
-/system/bin/init\.class_main\.sh u:object_r:qti_init_shell_exec:s0
 
 # HALs
 /system/bin/hw/lineage\.biometrics\.fingerprint\.inscreen@1\.0-service\.raphael                                 u:object_r:hal_fod_raphael_exec:s0
@@ -17,6 +16,7 @@
 /(product|system/product)/vendor_overlay/[0-9]+/lib(64)?/hw      	   u:object_r:vendor_hal_file:s0
 /(product|system/product)/vendor_overlay/[0-9]+/overlay(/.*)?  		   u:object_r:vendor_overlay_file:s0
 /(product|system/product)/vendor_overlay/[0-9]+/lib(64)?/soundfx(/.*)?     u:object_r:vendor_file:s0
+/(product|system/product)/vendor_overlay/[0-9]+/bin/init\.qcom\.usb\.sh   u:object_r:qti_init_shell_exec:s0
 
 
 # Device Info
