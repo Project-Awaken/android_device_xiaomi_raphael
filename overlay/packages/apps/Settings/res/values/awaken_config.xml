@@ -24,6 +24,9 @@
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
+    <!-- Device specific pickup sensor -->
+    <string name="pickup_sensor" translatable="false">xiaomi.sensor.pickup</string>
+
     <!-- Device Supports Screen Off FOD -->
     <bool name="config_supportScreenOffFod">true</bool>
 </resources>
