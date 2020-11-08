@@ -25,11 +25,5 @@
     <string name="config_customDozePackage">org.lineageos.settings/org.lineageos.settings.doze.DozeSettingsActivity</string>
 
     <!-- Device Supports Screen Off FOD -->
-    <bool name="config_supportScreenOffFod">true</bool> 
-
-    <!-- Battery Health -->
-    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
-    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
-    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_full</string>
-    <bool name="config_supportBatteryHealth">true</bool>
+    <bool name="config_supportScreenOffFod">true</bool>
 </resources>
