@@ -505,4 +505,7 @@
         <!-- ID0:Fingerprint:Strong -->
         <item>0:2:15</item>
     </string-array>
+
+   <!-- Enable face auth when swiping security view -->
+   <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
 </resources>
