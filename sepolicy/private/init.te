@@ -7,6 +7,3 @@ allow init vendor_configs_file:file mounton;
 
 # Allow init to mount vendor overlay
 allow init vendor_overlay_file:dir mounton;
-
-# Allow init to wrtie to sysfs_battery_supply
-allow init sysfs_battery_supply:file { setattr };
