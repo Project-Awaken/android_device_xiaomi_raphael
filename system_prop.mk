@@ -58,7 +58,10 @@ ro.com.google.ime.kb_pad_port_b=1
 
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.ime.kb_pad_port_b=1
+    ro.com.google.ime.kb_pad_port_l=7 \
+    ro.com.google.ime.kb_pad_port_r=7 \
+    ro.com.google.ime.kb_pad_land_l=14 \
+    ro.com.google.ime.kb_pad_land_r=14
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
