@@ -92,5 +92,6 @@ void vendor_load_properties() {
         LOG(ERROR) << __func__ << ": unexcepted region!";
     }
     property_override("ro.build.fingerprint", "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys");
+    property_override("ro.apex.updatable", "true");
     load_dalvik_properties();
 }
