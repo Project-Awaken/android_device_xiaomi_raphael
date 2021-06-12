@@ -7,9 +7,6 @@ type bt_firmware_file, file_type;
 type firmware_file, file_type;
 type persist_file, file_type;
 
-#NNHAL files
-type hal_neuralnetworks_data_file, file_type, data_file_type;
-
 # socket
 type pps_socket, file_type;
 
@@ -17,11 +14,4 @@ type pps_socket, file_type;
 type sysfs_graphics, sysfs_type, fs_type;
 type sysfs_tp_fodstatus, sysfs_type, fs_type;
 type sysfs_kgsl, sysfs_type, fs_type;
-type sysfs_soc, sysfs_type, fs_type;
 type sysfs_device_info, sysfs_type, fs_type;
-
-# Wifi Data file
-type wifi_vendor_data_file, file_type, data_file_type;
-
-# qti_init
-type qti_init_shell_exec, exec_type, file_type;
