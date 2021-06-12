@@ -118,7 +118,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     init.mi_thermald.rc \
     init.qcom.rc \
-    init.qcom.usb.sh \
     init.recovery.qcom.rc
 
 PRODUCT_COPY_FILES += \
